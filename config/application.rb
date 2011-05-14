@@ -10,7 +10,7 @@ module Sutalk
   class Application < Rails::Application
     
     # config.access_request.review = 'xxx'
-    config.facebook_api = {:app_id => '226443007370846', :json  => "", :auth_url => "", :canvas_page =>  "http://apps.facebook.com/sutalk-mitestjain"}
+    config.facebook_api = {:app_id => '226443007370846', :json  => "", :auth_url => "https://graph.facebook.com/oauth/authorize", :canvas_page =>  "http://apps.facebook.com/sutalk-mitestjain"}
     config.opentok_api = {:api_key => 657592, :api_secret => "3aa509e5677a191d8e9615c058a9464d9dc8503d"}
     
     # Settings in config/environments/* take precedence over those specified here.
